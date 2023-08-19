@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+nav{
+    width:100%;
+    height:75px;
+    background-color: blueviolet;
+    font-family: 'Poppins', sans-serif;
+}
+  h1 a{
+    font-size: 15px;
+    color:white;
+    float:left;
+    padding:25px;
+    text-decoration: none;
+}
+h1 a:hover{
+    color:aqua;
+}
+nav ul{
+    
+    float:right;
+    
+}
+ 
+nav ul li{
+    display: inline-block;
+    padding : 0px 10px;
+    list-style:none;
+    padding:25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:aqua;
+}
+
+div{
+    padding:20px;
+}
+.form-1{
+    width:100%;
+    padding:8px;
+    margin-top:10px;
+    margin-bottom:5px;
+    color:green;
+
+}
+#card-1{
+    width:600px;
+    height:900px;
+    padding:30px;
+    
+}
+.form-2{
+    padding-bottom:10px;
+    color:red;
+}
+button{
+    background-color:#ff5fff;
+    color:red;
+}
+button:hover{
+    color:blue;
+}
